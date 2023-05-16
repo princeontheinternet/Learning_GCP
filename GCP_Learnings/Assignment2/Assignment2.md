@@ -19,7 +19,9 @@
     Janet, 35, Female
     ```
 
-- Make the Bucket
+- Make the Bucket using gsutil
+
+    **Note**: _We can use gsutil for data transfer upto **1 TB.**_
 
     ```sh
     gsutil mb gs://bucket_created_using_cloud_shell
